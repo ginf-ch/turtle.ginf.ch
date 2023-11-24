@@ -2,6 +2,6 @@
 
 ## Imperatives Programmieren
 
-### Einführung in die Programmierung mit der Turtle
+### Einführung in die Programmierung mit der Turtle
 
 Website mit Unterrichtsmaterialien
