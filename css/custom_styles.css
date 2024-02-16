@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero.is-primary {
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)
+    ), url('../images/louis-hansel-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.linenumbers pre {
+    counter-reset: line;
+}
+
+.linenumbers code {
+    counter-increment: line;
+}
+
+.linenumbers code:before {
+    content: counter(line);
+    display: inline-block;
+    width: 2.5em; /* Fixed width */
+    border-right: 1px solid #ddd;
+    padding: 0 .5em;
+    margin-right: 0.75em;
+    color: #888;
+    -webkit-user-select: none;
+}
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(181, 132, 94, 0.95);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #9e672f;
+    overflow-x: hidden;
+    padding-top: 75px;
+}
